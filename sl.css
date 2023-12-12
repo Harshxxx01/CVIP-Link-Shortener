@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    margin-inline: auto;
+    background-image: url(images/Untitled_design__3_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text__container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: purple;
+    font-size: 29px;
+}
+
+.text__container p{
+    padding-top: 10px;
+    max-width: 1000px;
+    font-size: 16px;
+    color: black;
+    padding-left: 350px;
+}
+
+.shortener__container{
+    height: 128px;
+    width: 100%;
+}
+
+.input__container{
+    z-index: 9;
+    margin: 15px auto;
+    max-width: 800px;
+    height: 70px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: rgba(190, 134, 209, 0.475);
+}
+
+.input__container input{
+    height: 39px;
+    width: 95%;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 1rem;
+    color: black;
+    font-size: 16px;
+}
+
+.input__container button{
+    height: 39px;
+    width: 89%;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    outline:1px;
+    color: black;
+    font-size: 16px;
+    background-color: rgb(183, 0, 255);
+}
+
+.input__container button:hover{
+    background-color: rgb(222, 168, 220);
+}
+
+.error__msg{
+    background-color: var(--red);
+    max-width: 300px;
+    position: fixed;
+    top: 196px;
+    left: 50%;
+    transform: translateX(50%);
+    margin: auto;
+    z-index: 6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    visibility: hidden;
+    transition: all 0.8s ease-in;
+}
+
+.error__msg #error{
+    color: white;
+    padding: 10px;
+}
+
+.error__msg.show{
+    visibility: visible;
+    transform: translateX(-150%);
+}
+
+
+.links__container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.links__container .link{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+}
+
+.link .long__link{
+    color: blue;
+    margin-left: 1rem;
+}
+
+.link .short__link{
+    display: flex;
+    justify-content: center;
+}
+
+.link .copy__btn{
+    background-color: rgb(119, 119, 208);
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+

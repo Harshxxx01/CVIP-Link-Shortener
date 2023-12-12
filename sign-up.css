@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    margin-inline: auto;
+    background-image: url(images/Untitled\ design\ \(3\).gif);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.login{
+    padding: 50px ;
+}
+
+.text-field{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    background-color: rgba(240, 248, 255, 0.381);
+    padding: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.551);
+}
+
+.text-field h1{
+    color: purple;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.747);
+    padding-bottom: 20px;
+}
+
+.text-field input{
+    padding: 15px 75px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+}
+
+
+.text-field a{
+    font-size: 16px;
+    text-decoration: none;
+    color: purple;
+
+}
+
+.text-field button{
+    padding: 15px 126px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    background-color: purple;
+    outline: none;
+    border: none;
+}

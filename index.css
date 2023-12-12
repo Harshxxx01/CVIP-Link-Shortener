@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    margin-inline: auto;
+    background-image: url(images/Untitled_design__3_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.nav{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 500px
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+} 
+
+a:hover{
+    color: rgb(157, 94, 180);
+    box-shadow: 0 5px 35px 0px rgba(67, 13, 101, 0.551);
+    border-radius: 4px;
+}
+
+ul a{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+
+.bg-img{
+    position:inherit;
+}
+
+.area{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}
+
+.img-area{
+    padding-left: 80px;
+}
+
+.txt-area, h1 {
+    padding-bottom: 20px;
+    color: rgb(75, 24, 123);
+    padding-top: 50px;
+}
+
+.about-us{
+    background-image: url(images/F.png);
+    background-size:contain;
+    height: 690px;
+    width: 1381px;
+    background-repeat: no-repeat;
+}
+
+.abt-us{
+    padding-left: 750px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.747);
+    font-size: 38px;
+    padding-top: 60px;
+}
+
+.about-us h2{
+    padding-left: 750px;
+    font-size: 29px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+.about-us p{
+    padding-left: 790px;
+    padding-right: 130px;
+    padding-top: 20px;
+    line-height: normal;
+    color: rgb(0, 0, 0);
+}
+
+.about-us h3{
+    padding-left: 750px;
+    font-size: 20px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.747);
+    color: white;
+    padding-top: 10px;
+}
+
+.container{
+    margin:20px auto;
+    max-width: 700px;
+  }
+  
+  .container .heading{
+    text-align: center;
+    font-size: 30px;
+    padding:20px;
+    margin-bottom: 20px;
+  }
+  
+  .container .accordion-container{
+    padding:0 20px;
+  }
+  
+  .container .accordion-container .accordion{
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .container .accordion-container .accordion.active .accordion-heading{
+    background: rgb(132, 26, 164);
+  }
+  
+  .container .accordion-container .accordion.active .accordion-heading h3{
+    color:#000000;
+  }
+  
+  .container .accordion-container .accordion.active .accordion-heading i{
+    color:#9175a7;
+    transform: rotate(180deg);
+    transition: transform .2s .1s;
+  }
+  
+  .container .accordion-container .accordion.active .accordion-content{
+    display: block;
+  }
+  
+  .container .accordion-container .accordion .accordion-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    background: #8b6092;
+    border:2px solid #000;
+    padding:15px 20px;
+  }
+  
+  .container .accordion-container .accordion .accordion-heading h3{
+    font-size: 18px;;
+  }
+  
+  .container .accordion-container .accordion .accordion-heading i{
+    font-size: 25px;;
+  }
+  
+  .container .accordion-container .accordion .accordion-content{
+    padding:15px 20px;
+    border:2px solid #000;
+    font-size: 15px;
+    background: #dd95c9;
+    border-top: 0;
+    display: none;
+    animation: animate .2s linear backwards;
+    line-height: 2;
+    transform-origin: top;
+  }
+  
+  @keyframes animate {
+    0%{
+      transform: scaleY(0);
+    }
+  }
+
+.contact-us{
+    background-image: url(images/Untitled\ design.jpg);
+    background-size:contain;
+    height: 690px;
+    width: 1381px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback-form{
+    padding-left: 200px;
+    border-radius: 4px;
+    z-index: 999;
+    
+}
+
+input{
+    width: 383px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.442);
+    outline: none;
+    border: none;
+}
+
+textarea{
+    border-radius: 4px;
+    width: 383px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.442);
+    outline: none;
+    border: none;
+    padding-top: 10px;
+}
+
+.contact-us img{
+    padding-left: 130px;
+    padding-top: 90px;
+}
+
+.feedback-btn{
+    padding: 10px 160px;
+    background-color: purple;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+}
+
+.feedback-btn:hover::after{
+    background-color: palevioletred;
+}
+
+
+
+
